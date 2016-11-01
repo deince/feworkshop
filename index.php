@@ -2,7 +2,7 @@
 <html>
 	<head>
 		<title>My Photo Album</title>
-		<link href="css/main.css" rel="stylesheet" type="text/css">
+		<link href="CSS/main.css" rel="stylesheet" type="text/css">
 		<link href="https://fonts.googleapis.com/css?family=Monoton" rel="stylesheet">
 	</head>
 	<body>
@@ -46,7 +46,7 @@
 		<!-- Javascript Includes -->
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js">
 		</script>
-		<script src="js/main.js"></script>
+		<script src="JS/main.js"></script>
 
 	</body>
 </html>
