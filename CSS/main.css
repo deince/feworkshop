@@ -1,0 +1,99 @@
+/* Layout */
+{
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #fff;
+	color: #000;
+	margin: 0;
+	overflow-x: hidden;
+	padding: 0;
+}
+
+.container {
+  display: block;
+  margin: 0 auto;
+  max-width: 1220px;
+  padding-bottom: 2.5em;
+  padding-top: 2.5em;
+  width: 100%;
+}
+
+.container:after {
+ clear: both;
+ content: "";
+ display: block;
+ font-size: 0;
+ height: 0;
+ visibility: hidden;
+}
+
+/* Set 2-column layout for desktop only */
+@media (min-width: 761px) {
+
+
+	main{
+		float: left;
+		padding-right: 100px
+		width: 75%
+	}
+
+	aside {
+		float: right;
+		width: 25%
+	}
+
+	img {
+		display: block;
+		max-width: 100%;
+	}
+}
+
+/* Typography*/
+
+/* Header */
+header {
+	background-color: #455d3d;
+	color: #000000;
+	padding: 40px 0px 20px 0px;
+	font-family: 'Monoton', Arial, cursive;
+}
+
+header h1 {
+	font-size: 4em
+}
+
+header h2 {
+	font-size: 3em
+}
+
+
+/* Main */
+#photos img {
+	display: block;
+	margin-bottom: 30px
+}
+#more-photos {
+	display: none;
+}
+#show-less {
+	display: none;
+}
+
+/* Aside */
+aside .location {
+	background-image: url(../images/pin.png);
+	background-position: 0 0;
+	background-repeat: no-repeat;
+	line-height: 30px;
+	padding-left: 30px;
+}
+
+/* Footer */
+footer{
+	background-color: #455d3d;
+	color: #000000;
+	padding: 50px 0;
+	text-align: center;
+}
